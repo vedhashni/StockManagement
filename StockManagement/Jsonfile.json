@@ -1,0 +1,19 @@
+{
+  "Stocks": [
+    {
+      "Name": "TVSNext",
+      "NumberOfShares": 60,
+      "Share": 5000
+    },
+    {
+      "Name": "Zoho",
+      "NumberOfShares": 42,
+      "Share": 3000
+    },
+    {
+      "Name": "Kaar",
+      "NumberOfShares": 28,
+      "Share": 2000
+    }
+  ]
+}
