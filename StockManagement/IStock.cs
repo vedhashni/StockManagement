@@ -12,6 +12,11 @@ namespace StockManagement
         public void CalculateEachValue();
         public void CalculateTotalValue();
         public void StockAccount(string fileName);
+        public void Sell(int amount, string company);
+        public void Buy(int amount, string company);
+        public void SellStockAccount(List<AccountManager.Account> accountlist, string company, int amount);
+        public void AddStockAccount(List<AccountManager.Account> accountlist, string company, int amount);
+        public void DateAndTime();
     }
 }
 }

@@ -1,0 +1,23 @@
+{
+  "AccountList": [
+    {
+      "holderName": "Vedhashni",
+      "stockName": "HDFC",
+      "shares":3,
+      "price": 180
+    },
+    {
+      "holderName": "Vedhashni",
+      "stockName": "Axis",
+      "shares": 6,
+      "price": 100
+    },
+    {
+      "holderName": "Vedhashni",
+      "stockName": "SBI",
+      "shares": 2,
+      "price": 10
+    }
+  ]
+
+}

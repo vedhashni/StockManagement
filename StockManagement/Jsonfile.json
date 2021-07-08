@@ -1,17 +1,17 @@
 {
   "Stocks": [
     {
-      "Name": "TVSNext",
+      "Name": "HDFC",
       "NumberOfShares": 60,
       "Share": 5000
     },
     {
-      "Name": "Zoho",
+      "Name": "Axis",
       "NumberOfShares": 42,
       "Share": 3000
     },
     {
-      "Name": "Kaar",
+      "Name": "SBI",
       "NumberOfShares": 28,
       "Share": 2000
     }
