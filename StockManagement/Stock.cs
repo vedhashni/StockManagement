@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -51,6 +52,11 @@ namespace StockManagement
             }
             Console.WriteLine("Total stock value is : " + totalVal);
 
+        }
+        public void StockAccount(string fileName)
+        {
+            utility = JsonConvert.DeserializeObject<StockUtility>(File.ReadAllText(@"C:\Users\ven\source\repos\StockManagement\StockManagement\Jsonfile.json"));
+            StockManage();
         }
     }
 }

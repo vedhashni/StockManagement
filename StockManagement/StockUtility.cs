@@ -9,7 +9,7 @@ namespace StockManagement
     class StockUtility
     {
         public List<StocksRecords> Stock { get; set; }
-
+        public List<Account> account { get; set; }
 
         public class StocksRecords
         {
@@ -19,5 +19,15 @@ namespace StockManagement
             public int Share { get; set; }
 
         }
+        internal class Account
+        {
+            public string AccountName { get; set; }
+        }
     }
+
+    public class Account
+    {
+        public string AccountName { get; set; }
+    }
+}
 }

@@ -11,6 +11,7 @@ namespace StockManagement
         public void StockManage();
         public void CalculateEachValue();
         public void CalculateTotalValue();
+        public void StockAccount(string fileName);
     }
 }
 }
